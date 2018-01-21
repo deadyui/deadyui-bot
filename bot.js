@@ -23,7 +23,10 @@ client.on('message', message => {
   	}
     if (message.startsWith === '~userinfo') {
     	message.reply('**User Info:**\n\n');
+    }
+    if (message.content === '~userinfo') {
+    	message.reply('**Here is a list of my current commands:**\n\n~ping\n~om\n~yum\n~kill me\n~help');
+    }
 });
 
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
