@@ -21,9 +21,6 @@ client.on('message', message => {
     if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
     }
-    if (message.content === '+ban ' + user) {
-        message.reply('failed');
-    }
 });
 
 client.login(process.env.BOT_TOKEN);
