@@ -24,7 +24,7 @@ client.on('message', message => {
     if (message.content === '~ping roulette') {
     	message.reply('@here ouch.. try again?');
     }
-    if (message.content === '~murder yui') {
+    if (message.content === '~murder @yui') {
     	message.reply('Executing [10-ping murder]');
         message.reply('@yui#9194 will be murdered in 9 pings');
         message.reply('@yui#9194 will be murdered in 8 pings');
