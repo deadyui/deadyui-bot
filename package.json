@@ -1,0 +1,14 @@
+{
+  "name": "deadBot",
+  "version": "1.0.0",
+  "description": "death excites me...",
+  "main": "bot.js",
+  "author": "deadyui",
+  "scripts": {
+    "start": "node bot.js"
+    },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
