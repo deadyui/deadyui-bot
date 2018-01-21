@@ -36,6 +36,7 @@ client.on('message', message => {
         message.reply('@yui#9194 will be murdered in 2 pings');
         message.reply('@yui#9194 will be murdered in 1 ping');
         message.reply('@yui#9194 has been murdered.');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
