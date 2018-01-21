@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content ==- 'om') {
+    if (message.content === '~om') {
         message.reply('nom nom');
     }
     if(command === "ping") {
