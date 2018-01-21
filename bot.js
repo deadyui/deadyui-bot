@@ -19,7 +19,7 @@ client.on('message', message => {
     	message.reply('you are already dead...');
   	}
     if (message.content === '~help') {
-    	message.reply('*Here is a list of my current commands:*\n\n ~ping\n~om');
+    	message.reply('**Here is a list of my current commands:**\n\n~ping\n~om\n~yum\n~kill me\n~help');
   	}
 });
 
