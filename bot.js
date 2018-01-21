@@ -21,6 +21,8 @@ client.on('message', message => {
     if (message.content === '~help') {
     	message.reply('**Here is a list of my current commands:**\n\n~ping\n~om\n~yum\n~kill me\n~help');
   	}
+    if (message.startsWith === '~userinfo') {
+    	message.reply('**User Info:**\n\n');
 });
 
 // THIS  MUST  BE  THIS  WAY
