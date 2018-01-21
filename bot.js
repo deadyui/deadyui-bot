@@ -6,20 +6,24 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '~om') { 
+    if (message.content === '+om') { 
         message.reply('nom nom');
     }
-    if(command === "purge") {
-    const deleteCount = parseInt(args[0], 10);
-    if(!deleteCount || deleteCount < 2 || deleteCount > 100)
-      return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
-    const fetched = await message.channel.fetchMessages({count: deleteCount});
-    message.channel.bulkDelete(fetched)
-      .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
-  }
-    if (message.content === '~run it down mid') {
+    if (message.content === '+members') {
+        message.reply('There are currently **18** members in the server');
+    }
+    if (message.content === '+bots') {
+        message.reply('There are currently **3** bots in the server:\n\n*deadBot*\n*Mantaro*\n*Mee6*');
+    }
+    if (message.content === '+clearChat) {
+        message.reply('All previous chat in channel has been cleared ^~^');
+    }
+    if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
-     }
+    }
+    if (message.content === '+ban ' + user) {
+        message.reply('failed');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
