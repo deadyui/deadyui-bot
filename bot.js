@@ -37,6 +37,12 @@ client.on('message', message => {
         message.reply('you will be murdered in 1 ping');
         message.reply('you has been murdered.');
     }
+    if (message.mentions === 'hello') {
+        message.reply('Test Success');
+    }
+    if (message.content === '~run it down mid') {
+        message.reply('T1T1T1T1T1T1T1T1T1T1');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
