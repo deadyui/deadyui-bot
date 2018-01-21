@@ -15,7 +15,7 @@ client.on('message', message => {
     if (message.content === '+bots') {
         message.reply('There are currently **3** bots in the server:\n\n*deadBot*\n*Mantaro*\n*Mee6*');
     }
-    if (message.content === '+clearChat) {
+    if (message.content === '+clearChat') {
         message.reply('All previous chat in channel has been cleared ^~^');
     }
     if (message.content === '+hehexd') {
