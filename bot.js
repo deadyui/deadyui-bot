@@ -18,13 +18,6 @@ client.on('message', message => {
     if (message.content === '+crystalClear') {
         message.reply('All previous chat in channel has been cleared ^~^');
     }
-    if (message.content === '+spam'); {
-        message.reply('y');
-        message.reply('u');
-        message.reply('m');
-        message.reply('m');
-        message.reply('y');
-    }
     if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
     }
