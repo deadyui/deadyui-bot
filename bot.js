@@ -23,6 +23,7 @@ client.on('message', message => {
     }
     if (message.content === '+yasuoMain') {
         message.reply('cancer');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
