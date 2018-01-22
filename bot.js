@@ -24,6 +24,9 @@ client.on('message', message => {
     if (message.content === '+ask should i do my geography hw') {
          message.reply('ofc not!!1111! geo is boring');
     }
+    if (message.content === '+adamadamadam') {
+        message.reply('omnomnomnomOMNOMNOMNOMNOMNOMNOM yummYUMMMY adamdadamdadmamdamdamdamadmadmadmadm\nadam\nadam\nadam\nadam\nadam\nadam\nadam');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
