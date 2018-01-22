@@ -21,6 +21,9 @@ client.on('message', message => {
     if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
     }
+    if (message.content === '+ask should i do my geography hw') {
+         message.reply('ofc not!!1111! geo is boring');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
