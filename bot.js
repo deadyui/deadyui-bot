@@ -25,7 +25,7 @@ client.on('message', message => {
          message.reply('ofc not!!1111! geo is boring');
     }
     if (message.content === '+annoyAdam') {
-        message.reply('omnomnomnomOMNOMNOMNOMNOMNOMNOMyummYUMMMYadamdadamdadmamdamdamdamadmadmadmadm\nadam\nadam\nadam\nadam\nadam\nadam\nadam');
+        message.reply('adam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\nadam\n\nomnomnom ehehehe');
     }
 });
 
