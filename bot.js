@@ -15,8 +15,15 @@ client.on('message', message => {
     if (message.content === '+bots') {
         message.reply('There are currently **3** bots in the server:\n\n*deadBot*\n*Mantaro*\n*Mee6*');
     }
-    if (message.content === '+clearChat') {
+    if (message.content === '+crystalClear') {
         message.reply('All previous chat in channel has been cleared ^~^');
+    }
+    if (message.content === '+spam \'yummy\''); {
+        message.reply('y');
+        message.reply('u');
+        message.reply('m');
+        message.reply('m');
+        message.reply('y');
     }
     if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
