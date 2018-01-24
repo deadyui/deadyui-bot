@@ -9,21 +9,20 @@ client.on('message', message => {
     if (message.content === '+om') { 
         message.reply('nom nom');
     }
-    if (message.content === '+bots') {
-        message.reply('removed command');
+    if (message.content === '+members') {
+        message.reply('There are currently **18** members in the server');
     }
+    if (message.content === '+bots') {
+        message.reply('There are currently **3** bots in the server:\n\n*deadBot*\n*Mantaro*\n*Mee6*');
+    }
+    if (message.content === '+crystalClear') {
+        message.reply('All previous chat in channel has been cleared ^~^');
     }
     if (message.content === '+hehexd') {
          message.reply('T1T1T1T1T1T1T1T1T1T1');
     }
-    if (message.content === '+kill me') {
-         message.reply('you are already dead.');
-    }
-    if (message.content === '+revive me') {
-         message.reply('you were never alive.');
-    }
-    if (message.content === '+should i start studying') {
-         message.reply('nah you has plenty of time :sweat_smile:');
+    if (message.content === '+ask should i do my geography hw') {
+         message.reply('ofc not!!1111! geo is boring');
     }
 });
 
