@@ -24,6 +24,10 @@ client.on('message', message => {
     if (message.content === '+shouldIstudy') {
          message.reply('nah.\n https://www.youtube.com/watch?v=fUtlqtdn1Xo');
     }
+    
+    if (message.content === '.') {
+        message.reply('->loot');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
