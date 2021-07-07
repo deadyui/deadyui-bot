@@ -1,3 +1,4 @@
 # deadyuiBot
-24/7 heroku
+Unfinished discord bot coded in javascript
+Hosted on 24/7 heroku
 --Literally dead
